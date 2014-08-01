@@ -61,13 +61,13 @@ gulp.task("templates", function() {
 		}
 	 }))
 	 .pipe(gulp.dest("./"));
-  gulp.src("./templates/partials/*.jade")
+  gulp.src("./templates/partials/**/*.jade")
 	.pipe(jade({
 		locals: {
 		  title: "OMG THIS IS THE TITLE"
 		}
 	 }))
-	 .pipe(gulp.dest("./app/partials"));
+	 .pipe(gulp.dest("./partials"));
 });
 
 gulp.task("imagemin", function () {
