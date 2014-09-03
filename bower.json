@@ -1,15 +1,16 @@
 {
-  "name": "angular-seed",
-  "description": "A starter project for AngularJS",
-  "version": "0.0.0",
-  "homepage": "https://github.com/angular/angular-seed",
+  "name": "angular-seed-jade-gulp",
+  "description": "A starter project for AngularJS optimized for use with Jade and Gulp",
+  "version": "0.0.1",
+  "homepage": "https://github.com/angular/angular-seed-jade-gulp",
   "license": "MIT",
-  "private": true,
   "dependencies": {
     "angular": "1.2.x",
     "angular-route": "1.2.x",
-    "angular-loader": "1.2.x",
-    "angular-mocks": "~1.2.x",
-    "html5-boilerplate": "~4.3.0"
+    "angular-bootstrap": "~0.11.0",
+    "bootstrap": "~3.2.0",
+    "jquery": "~2.1.1",
+    "ui-router": "~0.2.10",
+    "angular-cookie": "~4.0.2"
   }
 }
