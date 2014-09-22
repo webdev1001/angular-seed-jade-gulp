@@ -2,10 +2,7 @@
 
 /* Controllers */
 
-angular.module('myApp.controllers', [])
-.controller('MyCtrl1', ['$scope', function($scope) {
-	$scope.test = "1";
-}])
-.controller('MyCtrl2', ['$scope', function($scope) {
-	$scope.test = "2";
+angular.module('app.controllers', [])
+.controller('mainController', ['$scope', function($scope) {
+	// code goes here
 }]);

@@ -12,7 +12,6 @@
     "gulp-jade": "^0.7.0",
     "gulp-jade-php": "^1.0.0",
     "gulp-plumber": "^0.6.5",
-    "gulp-util": "^3.0.0",
     "gulp-watch": "^0.6.9",
     "jade": "*"
   }

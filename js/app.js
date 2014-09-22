@@ -1,25 +1,20 @@
 "use strict";
 
-angular.module("myApp", [
-	"myApp.filters",
-	"myApp.services",
-	"myApp.directives",
-	"myApp.controllers",
+angular.module("app", [
+	"app.filters",
+	"app.services",
+	"app.directives",
+	"app.controllers",
 	"ui.router",
 	"ui.bootstrap",
 	"ipCookie"
 ]).
-config(["$urlRouterProvider", "$stateProvider", function($urlRouterProvider, $stateProvider) {
+app.config(function($stateProvider, $urlRouterProvider) {
 	$urlRouterProvider.otherwise("/");
 	$stateProvider
-		.state("view1", {
-			url: "/view1",
-			templateUrl: "partials/partial1.php",
-			controller: "MyCtrl1"
-		})
-		.state("view2", {
-			url: "/view2",
-			templateUrl: "partials/partial2.php",
-			controller: "MyCtrl2"
+		.state('main', {
+			url: "/",
+			controller: "mainController",
+			templateUrl: "partials/main.php"
 		});
-}]);
+});
