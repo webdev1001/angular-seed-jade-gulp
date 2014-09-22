@@ -1,1 +1,1 @@
-<p>This is the partial for view 1.</p><p>Test value: {{test}}</p>
+<p>This is the partial for the main view. Actually, you can change it to whatever you want. This is just here to demonstrate that it's working.</p>

@@ -8,8 +8,8 @@ angular.module("app", [
 	"ui.router",
 	"ui.bootstrap",
 	"ipCookie"
-]).
-app.config(function($stateProvider, $urlRouterProvider) {
+])
+.config(function($stateProvider, $urlRouterProvider) {
 	$urlRouterProvider.otherwise("/");
 	$stateProvider
 		.state('main', {
